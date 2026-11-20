@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <nav>
+        <h1>Portofolio</h1>
+        <ul>
+            <li><a href="#Home">Beranda</a></li>
+            <li><a href="#Projects">Pengalaman</a></li>
+            <li><a href="#About">Tentang Saya</a></li>
+            <li><a href="#Contact">Kontak</a></li>
+        </ul>
+    </nav>
+    <section id="Home" class="hero">
+        <h1>Halo,<span>Saya Fera</span></h1>
+        <p>Junior Programmer | Technical Admin</p>
+        <button onclick="scrollToContact()">Hubungi Saya</button>
+    </section>
+
+    <section  id="About" class="section">
+        <h2>Tentang Saya</h2>
+        <p>Saya adalah seorang web developer junior yang fokus pada pembuatan layout website</p>
+    </section>
+
+    <section id="Projects" class="section">
+        <h2>Pengalaman</h2>
+
+        <div class="Project-list">
+            <div class="card">
+                <h3>Pengalaman 1</h3>
+                <p>Admin teknik perusahaan teleakses solusindo</p>
+            </div>
+
+            <div class="card">
+                <h3>Pengalaman 2</h3>
+                <p>Admin perusahaan AC </p>
+
+            </div>
+
+            <div class="card">
+                <h3>pengalaman 3</h3>
+                <p>Admin restoran seadfood</p>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id="Contact" class="section">
+        <h2>Kontak Saya</h2>    
+        
+        <form id="contactform">
+            <input type="text" placeholder="Masukan Nama" required/>
+            <input type="email" placeholder="Masukan Email" required/>
+            <textarea placeholder="Tulis Pesan Anda"></textarea>
+            <button type="submit">Kirim Pesan</button>
+        </form>
+
+        <p id="message" class="message"></p>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2026 will be.All right reserved.</p>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
